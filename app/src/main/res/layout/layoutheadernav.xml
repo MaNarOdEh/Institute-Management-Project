@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:background="#3134A1"
+        android:layout_marginBottom="15dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/manager"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#fff"/>
+        <EditText
+            android:id="@+id/edit_name"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="90dp"
+            android:paddingLeft="15dp"
+            android:text="MaNaR OdEh"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginLeft="120dp"
+            android:textSize="15sp"
+            android:text="0597853325"
+            android:textColor="#52baff"
+            />
+    </RelativeLayout>
+</LinearLayout>

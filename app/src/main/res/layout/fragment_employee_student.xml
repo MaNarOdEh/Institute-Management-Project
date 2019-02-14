@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".employeeStudent"
+    android:background="#ffff"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="40dp"
+        >
+  <TextView
+      android:layout_marginTop="25dp"
+      android:layout_marginBottom="25dp"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:gravity="center"
+      android:text="Student For That Employee"
+      android:textSize="16sp"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="15dp"
+       android:layout_margin="5dp"
+       >
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="40dp"
+           android:layout_weight="1"
+           app:cardElevation="12dp"
+           app:cardCornerRadius="1dp"
+           android:padding="5dp">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:text="Total Studnet"
+               android:gravity="center"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:id="@+id/numberOfStudent"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="3"
+               android:gravity="center"/>
+           </LinearLayout>
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="40dp"
+           android:layout_weight="1"
+           app:cardElevation="12dp"
+           app:cardCornerRadius="1dp"
+           android:padding="5dp">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:text="Blocked Student"/>
+               <TextView
+                   android:id="@+id/numberOfBlockedStudent"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="center"
+                   android:text="1"/>
+           </LinearLayout>
+       </android.support.v7.widget.CardView>
+   </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

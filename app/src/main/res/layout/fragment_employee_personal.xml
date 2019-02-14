@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".employeePersonal"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="#ffff"
+    >
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
+        <EditText
+            android:id="@+id/employee_name"
+            android:hint="Employee Name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Haneen Odeh"
+            android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/employee_phone"
+            android:hint="Employee Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="0597885533"
+            android:inputType="number"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
+        <EditText
+            android:id="@+id/employee_bd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Birth Date"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="27-03-1997"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/employee_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:text="AB#FERW"
+           />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/saveChanges"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:text="Save Edit"
+        android:textColor="#ffff"
+        android:background="#fddf"/>
+
+</LinearLayout>

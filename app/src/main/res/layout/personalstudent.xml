@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <EditText
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/nametag"
+            android:id="@+id/nameEdit"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Hala OdEh"
+            android:gravity="center"
+            android:inputType="text"/>
+    <EditText
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/smartphone"
+            android:id="@+id/phoneEdit"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="0597853325"
+            android:inputType="number"/>
+    <EditText
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/report"
+        android:id="@+id/gradeEdit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="8"
+        android:gravity="center"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/woman"
+        android:id="@+id/teacherEdit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:text="Reem"
+        android:gravity="center"/>
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:background="@drawable/circle"
+                android:backgroundTint="#9A367ABD"
+                android:textColor="#fff"
+                android:layout_marginRight="15dp"
+                android:id="@+id/saveChanges"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:text="save"
+                android:textSize="15dp"/>
+        </RelativeLayout>
+
+
+</LinearLayout>

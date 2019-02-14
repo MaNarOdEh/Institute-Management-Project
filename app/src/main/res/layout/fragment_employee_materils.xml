@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".employeeMaterils"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <Spinner
+            android:id="@+id/showAllMaterials"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1.8"
+            android:paddingLeft="5dp"/>
+        <Button
+            android:id="@+id/addMaterials"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1.5"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            android:text="Add Cources"
+            android:drawableLeft="@drawable/add"
+            android:background="@drawable/circle"
+            android:backgroundTint="#fddf"/>
+    </LinearLayout>
+    <GridLayout
+        android:id="@+id/gridforMaterials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:layout_margin="8dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginVertical="2dp"
+        >
+    </GridLayout>
+
+</LinearLayout>
